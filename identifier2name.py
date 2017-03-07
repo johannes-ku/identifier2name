@@ -2,7 +2,6 @@ from urllib.request import urlopen
 import json
 import sys
 
-
 out = ""
 with open ("token.txt", "r") as tokenin:
     token = tokenin.readline()
